@@ -9,11 +9,16 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "php": ">=7.0"
+    "php": ">=7.4",
+    "wechatpay/wechatpay": "dev-main",
+    "ext-openssl": "*",
+    "ext-json": "*",
+    "ext-curl": "*",
+    "chillerlan/php-qrcode": "dev-main"
   },
   "autoload": {
     "psr-4": {
-      "Wechat\\": "Wechat"
+      "Zisay\\Saypay\\": "src/"
     }
   }
 }
